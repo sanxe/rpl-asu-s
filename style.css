@@ -1,0 +1,208 @@
+body{
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+    padding: 0;
+    font-family: TTNormsProMedium, MyriadSemibold, Segoe UI, Arial, PingFang TC, Microsoft JhengHei, sans-serif;
+}
+
+.navbar .nav{
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.navbar .nav ul li a:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 16px;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.content .image{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.content .category{
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightgray;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    background-color: white;
+}
+
+.content .category > div{
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.content .category > div a{
+    height: 100px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.content .category > div p{
+    color: rgb(130, 130, 130);
+}
+
+.content .category > div a:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 100px;
+}
+
+.content .maincontent{
+    display: flex;
+    margin-left: 270px;
+    justify-content: center;
+    padding-bottom: 120px;
+    border-bottom: 1px solid lightgray;
+}
+
+.ms11button{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    margin: 24px 0;
+    margin-left: 1000px;
+}
+
+.content .maincontent .header, h1{
+    font-weight: 400;
+    text-align: center;
+}
+
+.content .filtercontainer .filtercontent{
+    height: 100%;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin-top: 100px;
+    margin-left: -247px;
+    margin-right: 80px;
+    padding-left: 8px;
+}
+
+.content .maincontent .header{
+    text-align: center;
+    width: 600px;
+    margin-top: 100px;
+}
+
+.content .maincontent .header h1{
+    margin-left: 100px;
+    height: 25px;
+}
+
+.content .maincontent .header p{
+    font-size: 20px;
+    font-weight: 100;
+    margin-right: -120px;
+}
+
+.content .maincontent .catalog .catalogcontent{
+    display: block;
+    border-radius: 15px;
+    background-color: white;
+    height: 420px;
+    width: 420px;
+    padding: 12px;
+    margin-top: 360px;
+    margin-left: -668px;
+    text-align: center;
+    padding-left: 5px;
+}
+
+
+.content .maincontent .catalog .catalogcontent2{
+    display: block;
+    border-radius: 15px;
+    background-color: white;
+    height: 420px;
+    width: 420px;
+    padding: 12px;
+    margin-top: -444px;
+    margin-left: -218px;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.content .maincontent .catalog .catalogcontent img{
+    margin-right: -10px;
+}
+
+.content .maincontent .catalog .links a{
+    color: #006ce1;
+}
+
+.content .maincontent .catalog .links a:hover{
+    text-decoration: underline;
+}
+
+
+.content .maincontent .catalog .links span a{
+    border: 1px solid #006ce1 ;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 50px;
+    border-radius: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-right: 9px;
+}
+
+.content .maincontent .catalog .catalogcontent3{
+    display: block;
+    border-radius: 15px;
+    background-color: white;
+    height: 420px;
+    width: 420px;
+    padding: 12px;
+    margin-top: 10px;
+    margin-left: -668px;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.mainfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: small;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mainfooter a:hover{
+    border-bottom: 2px solid black;
+}
+
+.mainfooter a{
+    margin-top: 10px;
+}
+
+.mainfooter div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 90px;
+}
